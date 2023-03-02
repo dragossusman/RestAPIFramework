@@ -11,5 +11,7 @@ Defined the framework structure:
     - global.properties file used to store the URLs accesed
     - TestDataBuild used for adding test input data 
     - Utils class used for the code maintainability containing methods for getting global properties, requesting specifications, logging, getting JSON path, anything that hardcoded which should be found in the tests
-    - stepsDefinition file defining the Gherking steps
+    - stepsDefinition file defining the Gherking steps; Hooks for allowing preconditions to be executed for specific tests
+    
+pom.xml enhanced with maven-cucumber-reporting for nice html cucumber reports
     
